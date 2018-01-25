@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
-//import Gamearea from'./components/Gamearea';
+import Gamearea from './components/Gamearea';
 
 class App extends Component {
-  render() {
+
+  render(){
     return (
-      <Header/>
+        <div>
+          <Header/>
+          <Gamearea/>
+        </div>
     );
   }
 }

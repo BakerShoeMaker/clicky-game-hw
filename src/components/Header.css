@@ -1,6 +1,14 @@
 .gameFont{
 
     font-family: 'Luckiest Guy', cursive;
+    color: #0382C1;
 
+}
+
+.gameFontDirections{
+
+    font-family: 'Luckiest Guy', cursive;
+    color: #918c89;
+    text-align: center;
 
 }
