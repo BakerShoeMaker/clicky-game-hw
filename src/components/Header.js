@@ -11,22 +11,19 @@ class Header extends Component{
             <div>
                 <div className="row ">
                     <div className="col-1"></div>
-                    <div className="col-5 my-3">
+                    <div className="col-5 my-3 ">
                         <img src="../../images/logo.png" alt="" width="175" height="40"/>
                     </div>
                     <div className="col-5 gameFont my-3">
-                        <h4> score 0 | top score 0 </h4>
+                        <h5> score 0 | top score 0 </h5>
                     </div>
                     <div className="col-1"></div>
                 </div>
                 <div className="row">
                     <div className="col-12 gameFontDirections">
-                        <p> Click on an image to earn points, but don't click on any more than once!</p>
+                        <p> Click on an image to earn points. Don't click an image more than once!</p>
                     </div>
-
                 </div>
-
-
             </div>//end container div
 
         );
