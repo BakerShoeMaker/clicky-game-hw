@@ -2,8 +2,13 @@ import React, { Component } from 'react';
 import '../components/Header.css';
 
 class Header extends Component{
-
-
+    constructor(props) {
+        super(props);
+        this.state = {
+            score: 0,
+            topScore: 0
+        }
+    }
 
     render(){
 
@@ -15,7 +20,7 @@ class Header extends Component{
                         <img src="../../images/logo.png" alt="" width="175" height="40"/>
                     </div>
                     <div className="col-5 gameFont my-3">
-                        <h5> score 0 | top score 0 </h5>
+                        <h5> score {this.state.score} | top score {this.state.topScore} </h5>
                     </div>
                     <div className="col-1"></div>
                 </div>
